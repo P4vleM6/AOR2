@@ -1,0 +1,10 @@
+Na VHDL-u:
+a) Bihejvioralnim opisom opisati D-flipflop sa asinhronim resetom. Svi portovi su tipa std_logic.
+b) Korišćenjem komponente iz tačke (a), opisati n-bitni registar koji na rastuću ivicu takta skladišti n-
+bitni ulaz i prosledjuje ga na izlaz (n-generic konstanta).
+c) Strukturalnim opisom opisati kolo koje detektuje promenu n-bitnog vektora A. Kolo realizovati
+korišćenjem prethodno opisanih komponenti i dodatne logike. Na izlazu kola nalazi se port
+CHANGED koji ima vrednost 1 ukoliko se trenutni ulaz A razlikuje od vrednosti u prethodnom
+taktu, u suprotnom 0. Nacrtati šemu celokupnog kola za n=5, uz označavanje svih portova i signala
+korišćenih u kodu. Napisati testbenč sa generatorom takta poluperiode 30 ns i talasnim oblicima
+pobude koji demonstriraju rad kola u karakterističnim slučajevima.
