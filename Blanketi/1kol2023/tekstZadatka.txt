@@ -1,0 +1,8 @@
+Na VHDL-u opisati jednocifreni BCD kružni brojač koji broji naviše. Brojač, pored
+ulaza za takt, ima i ulaze we i d_in. Kada je aktivan ulaz we, sinhrono se upisuje stanje brojača
+sa ulaza d in. Realizovani brojač ugraditi u kolo koje ima ulaze rst i clk. Kolo treba da
+pobuđuje brojač tako da on broji na svaki drugi takt a da se resetuje na aktivnu vrednost ulaza
+rst .. Svi ulazi su aktivni na visokom nivou.
+Kreirati testbenč sa talasnim oblicima ulaza koji demonstriraju sve karakteristične slučajeve
+ponašanja kola - željene i nepoželjne. Uz svaki skup ulaza navesti očekivanu vrednost izlaznog
+porta. Ukoliko je potrebno za testiranje kola, u testbenč ugraditi generator takta pogodne periode.
