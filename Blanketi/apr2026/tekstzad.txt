@@ -1,0 +1,9 @@
+Na VHDL-u:
+a) Bihejvioralnim opisom opisati jednocifreni kružni BCD brojač sa sinhronim paralelnim ulazom i
+dozvolom brojanja. Kada nije dozvoljeno brojanje, paralelni ulaz se upisuje u stanje brojača. Kada
+su na ulazu nelegalne vrednost, brojač se resetuje. Ne postoji zaseban reset port.
+b) Korišćenjem komponente iz tačke (a), opisati n-cifreni BCD brojač (n je generic konstanta).
+Nacrtati šemu kola za n=4, i označiti sve portove i signale korišćene u kodu.
+c) Napisati testbenč sa generatorom takta periode 20ns i talasnim oblicima pobude koji bi
+demonstrirali rad kola u karakterističnim slučajevima. U komentarima naznačiti koji deo talasnog
+oblika demonstrira koji slučaj.
