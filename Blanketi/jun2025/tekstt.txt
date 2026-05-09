@@ -1,0 +1,5 @@
+Na VHDL-u, bihejvioralnim opisom, realizovati konvertor BCD cifre iz 8421 koda u Gray-ov kod.
+Konvertor poseduje četvorobitni ulaz i izlaz. Korišćenjem realizovanog kola, opisati n-cifreni konvertor
+koda (n – generic konstanta). Nacrtati šemu kola i označiti sve signale i portove korišćene u kodu. Napisati
+testbenč sa generatorom takta periode 50 ns i talasnim oblicima pobude koji demonstriraju rad kola u
+karakterističnim slučajevima.
