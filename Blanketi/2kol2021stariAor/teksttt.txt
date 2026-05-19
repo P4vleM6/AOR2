@@ -1,0 +1,14 @@
+Na VHDL-u:
+a) Bihejvioralnim opisom opisati D flip-flop koji reaguje na silaznu ivicu takta i ima
+portove D i Q koji su tipa std_logic.
+b) Bihejvioralnim opisom, korišćenjem procesa i sensitivity lista opisati up/down n-bitni
+(n-generic konstanta) brojač sa sinhronim paralelnim upisom i sinhronim resetom koji
+menja smer brojanja kada prolazi kroz granične vrednosti brojanja. Nakon reseta,
+brojač treba da broji naviše.
+c) Strukturalnim opisom i korišćenjem konkurentnih klauzula dodele vrednosti signalu
+integrisati D flip-flop i brojač u kolo koje ima ulaze za takt, reset, paralelni upis i
+izlaz. Bit najveće težine izlaza brojača se vodi na izlazni port kola preko flip-flopa,
+dok se ostali bitovi prosleđuju direktno na izlazni port. Nacrtati šemu kola i označiti
+sve signale i portove korišćene u kodu.
+d) Napisati testbenč sa generatorom takta periode 100 ns i talasnim oblicima pobude koji
+bi demonstrirali rad kola u karakterističnim slučajevima korišćenja.
